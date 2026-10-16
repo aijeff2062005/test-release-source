@@ -1,10 +1,11 @@
 APP_NAME = "Release Testing"
-VERSION = "0.1.0"
+VERSION = "1.0.0"
 
 def main():
     print(f"Application: {APP_NAME}")
     print(f"Version: {VERSION}")
-    print("Environment: Development")
+    print("Environment: Production")
+    print("Release 1.0.0 is ready!")
 
 if __name__ == "__main__":
     main()
